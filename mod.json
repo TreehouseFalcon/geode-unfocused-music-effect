@@ -6,7 +6,7 @@
 	},
 	"id": "treehousefalcon.unfocused-music-effect",
 	"name": "Unfocused Music Effect",
-	"version": "v0.1.0",
+	"version": "v0.1.1",
 	"developer": "TreehouseFalcon",
 	"description": "Music effect when your game is unfocused",
 	"settings": {

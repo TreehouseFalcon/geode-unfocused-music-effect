@@ -1,0 +1,30 @@
+{
+	"geode": "6.0.0-beta.1",
+	"gd": {
+		"win": "2.2091",
+		"mac": "2.2091"
+	},
+	"id": "treehousefalcon.unfocused-music-effect",
+	"name": "Unfocused Music Effect",
+	"version": "v0.1.0",
+	"developer": "TreehouseFalcon",
+	"description": "Music effect when your game is unfocused",
+	"settings": {
+		"volume-multiplier": {
+			"name": "volume multiplier",
+			"description": "What multiplier should be applied to the music's current volume when attempting to suppress? 0 = completely muted, 0.5 = half muted",
+			"type": "float",
+			"min": 0,
+			"max": 0.5,
+			"default": 0.3
+		},
+		"cutoff-multiplier": {
+			"name": "low-pass cutoff multiplier",
+			"description": "22000hz multiplied by this value. Raise the volume multiplier above 0 to hear the effect.",
+			"type": "float",
+			"min": 0.2,
+			"max": 1,
+			"default": 0.25
+		}
+	}
+}

@@ -6,3 +6,7 @@ There are two customization options to control how your background music behaves
 
 - Volume
 - Low-pass filter
+
+### Credits
+
+- [dominokiddoo](user:13948595) for the mod icon

@@ -75,8 +75,9 @@ public:
 };
 
 // AppDelegate does not appear to work properly, notably with borderless fullscreen "fix" applied //
-class $modify(UnfocusedMusicEffectsDirector, CCDirector) {
-    void drawScene() {
+class WindowObserver {
+public:
+    void reflectWindowFocus() {
         bool focused = true;
 #ifdef GEODE_IS_WINDOWS
         DWORD foregroundProcess = 0;
@@ -90,7 +91,8 @@ class $modify(UnfocusedMusicEffectsDirector, CCDirector) {
         } else {
             MusicFocusEffect::unfocus();
         }
-
-        CCDirector::drawScene();
     }
 };
+$on_game(Loaded) {
+    GameManager::get()->schedule(schedule_selector(WindowObserver::reflectWindowFocus), .125f);
+}

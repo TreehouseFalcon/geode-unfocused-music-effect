@@ -6,7 +6,7 @@
 	},
 	"id": "treehousefalcon.unfocused-music-effect",
 	"name": "Unfocused Music Effect",
-	"version": "v0.1.1",
+	"version": "v0.1.2",
 	"developer": "TreehouseFalcon",
 	"description": "Music effect when your game is unfocused",
 	"settings": {
@@ -26,5 +26,12 @@
 			"max": 1,
 			"default": 0.25
 		}
+	},
+	"links": {
+		"source": "https://github.com/TreehouseFalcon/geode-unfocused-music-effect"
+	},
+	"issues": {
+		"info": "Report issues via GitHub Issues",
+		"url": "https://github.com/TreehouseFalcon/geode-unfocused-music-effect/issues"
 	}
 }

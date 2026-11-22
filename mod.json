@@ -9,6 +9,13 @@
 	"version": "v0.1.2",
 	"developer": "TreehouseFalcon",
 	"description": "Music effect when your game is unfocused",
+	"tags": [
+		"bugfix",
+		"enhancement",
+		"music",
+		"offline",
+		"utility"
+	],
 	"settings": {
 		"volume-multiplier": {
 			"name": "volume multiplier",

@@ -1,6 +1,6 @@
 ## v0.1.2
 
-- Added source and issues metadata
+- Added source/issues/tags metadata
 
 ### v0.1.1
 

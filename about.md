@@ -11,3 +11,4 @@ There are two customization options to control how your background music behaves
 ### Credits
 
 - [dominokiddoo](user:13948595) for the mod icon
+- [silence](user:29642529) for the transition fade idea

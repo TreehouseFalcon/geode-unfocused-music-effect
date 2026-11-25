@@ -1,12 +1,12 @@
 {
-	"geode": "6.0.0-beta.1",
+	"geode": "6.0.0",
 	"gd": {
 		"win": "2.2091",
 		"mac": "2.2091"
 	},
 	"id": "treehousefalcon.unfocused-music-effect",
 	"name": "Unfocused Music Effect",
-	"version": "v0.1.2",
+	"version": "v0.2.0",
 	"developer": "TreehouseFalcon",
 	"description": "Music effect when your game is unfocused",
 	"tags": [
@@ -24,6 +24,14 @@
 			"min": 0,
 			"max": 0.5,
 			"default": 0.3
+		},
+		"transition-time": {
+			"name": "fade length",
+			"description": "How long should it take (in milliseconds) to transition into the target volume level? 0 = instant switch",
+			"type": "int",
+			"min": 0,
+			"max": 1000,
+			"default": 150
 		},
 		"cutoff-multiplier": {
 			"name": "low-pass cutoff multiplier",

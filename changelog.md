@@ -1,6 +1,6 @@
 # v0.2.0
 
-- Added the `Transition Length` setting to control a new fade in/out transition when switching window focus
+- Added the `Transition Length` setting to control a new fade in/out transition when switching window focus (credit to [silence](user:29642529) for the idea)
 
 ## v0.1.2
 

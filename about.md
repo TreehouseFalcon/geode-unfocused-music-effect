@@ -6,6 +6,7 @@ There are two customization options to control how your background music behaves
 
 - Volume
 - Low-pass filter
+- Fade transition when switching focus
 
 ### Credits
 
